@@ -280,7 +280,7 @@ if(!message.guild.member(client.user).hasPermission("MUTE_MEMBERS")) return mess
  
 });
 
-const developers = ["472413769700474901","id"]
+const developers = ["472413769700474901","507215648217366538"]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
